@@ -1,0 +1,127 @@
+body{
+    width: 100vh;
+    height: 100%;
+    background-image: url('New folder/BackImg.avif');
+    background-size: cover;
+    color: white;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav i{
+    margin-left: 45px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: auto;
+    gap: 40px;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    transition: 200ms ease-in-out;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: grey;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.button{
+    margin-right: 50px;
+}
+
+.button button{
+    margin: 7px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 90px;
+    height: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background-color: black;
+    color: gold;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items:end;
+    width: 100%;
+    height: 500px;
+}
+
+.block{
+    margin: auto;
+    width: 450px;
+    height: 400px;
+    border: 4px solid white;
+    position: relative;
+    top: 140px;
+    left: 375px;
+    border-radius: 30px;
+}
+
+.block h4{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.block form{
+    width: 350px;
+    margin-left: 65px;
+}
+
+.form{
+    margin: 15px;
+     
+}    
+
+.form input{
+    padding: 1px auto;
+    display: block;
+    width: 300px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subbutton{
+    margin-left: 130px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.subbutton:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
